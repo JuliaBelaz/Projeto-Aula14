@@ -52,13 +52,13 @@ function draw() {
   
   if (World.frameCount % 100 == 0) {
    switch(select_balloon){
-    case 1: //chamar o balãovermelho
+    case 1:redBalloon(); 
     break;
-    case 2://chamar o balãoazul
+    case 2:blueBalloon();
     break;
-    case 3://chamar o balãoverde
+    case 3:greenBalloon(); 
     break;
-    case 4://chamar o balãorosa
+    case 4:pinkBalloon(); 
 break;
 
   }}
